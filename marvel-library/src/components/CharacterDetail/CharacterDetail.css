@@ -1,0 +1,39 @@
+.character-detail {
+    text-align: center;
+    padding: 20px;
+}
+
+.character-detail img {
+    max-width: 100%;
+    height: 100%;
+    max-height: 500px;
+    margin: 20px 0;
+}
+
+p {
+    max-width: 460px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.home-button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--marvel-red);
+    background-color: var(--marvel-red);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home-button:hover {
+    background-color: white;
+    color: var(--marvel-red);
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin: 20px 0;
+}

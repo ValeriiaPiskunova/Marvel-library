@@ -1,0 +1,13 @@
+:root {
+  --marvel-red: #e62429;
+}
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}

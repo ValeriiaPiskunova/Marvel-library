@@ -1,0 +1,50 @@
+.main {
+    padding: 20px;
+}
+
+.character-list__search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+body.dark .character-list__search-input {
+    background-color: #ccc;
+    border: 1px solid white;
+}
+
+.character-list__card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.character-list__pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.character-list__pagination-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: var(--marvel-red);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.character-list__pagination-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+    text-align: center;
+}
