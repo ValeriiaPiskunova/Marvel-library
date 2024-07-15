@@ -18,9 +18,12 @@ const App = () => {
         <Header />
         <React.Suspense fallback={<Loader />}>
           <Routes>
-            <Route path="/" element={<CharacterList />} />
             <Route
-              path="/character/:id"
+              path="/Marvel-library"
+              element={<CharacterList />}
+            />
+            <Route
+              path="/Marvel-library/character/:id"
               element={<CharacterDetail />}
             />
           </Routes>

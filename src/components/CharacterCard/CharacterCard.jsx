@@ -5,7 +5,7 @@ import "./CharacterCard.css";
 const CharacterCard = ({ character }) => {
   return (
     <Link
-      to={`/character/${character.id}`}
+      to={`/Marvel-library/character/${character.id}`}
       className="character-card"
     >
       <img

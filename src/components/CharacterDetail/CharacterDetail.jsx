@@ -28,7 +28,7 @@ const CharacterDetail = () => {
   }, [id]);
 
   const handleHomeClick = () => {
-    navigate("/");
+    navigate("/Marvel-library");
   };
 
   if (error) {
